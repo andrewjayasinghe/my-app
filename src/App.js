@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Register from "./components/Register/Register";
 import Program from "./components/Program/Program";
 import Gallery from "./components/Gallery/Gallery";
+import Footer from "./components/Footer/Footer";
 
 
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
@@ -20,10 +21,10 @@ class App extends Component {
 
         <Navbar/>
         <Switch>
-          <Route exact path="/Home" component={Home}/> 
-          <Route exact path="/Register" component={Register}/>
-          <Route exact path="/Program" component={Program}/>
-          <Route exact path="/Gallery" component={Gallery}/>
+        <Route exact path="/"><Home /><Footer /></Route>
+          <Route exact path="/Register"> <Register/> <Footer/></Route> 
+          <Route exact path="/Program"> <Program/> <Footer /></Route>
+          <Route exact path="/Gallery"> <Gallery/> <Footer /></Route>
         </Switch>
       </Router>
 

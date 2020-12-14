@@ -1,0 +1,21 @@
+.foot-font{
+    color: #D60B52;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:0.85;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.foot-font:hover{
+    color: #f5f5f5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:0.85;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#copy{
+    color: rgb(37, 27, 27);
+}

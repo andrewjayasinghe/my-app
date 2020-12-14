@@ -25,7 +25,7 @@ class Navbar extends Component {
       <a href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home">HOME</a>
       <a href={process.env.PUBLIC_URL + '/#/Program'} className="nav-font" id="faq" >PROGRAM</a>
       <a href={process.env.PUBLIC_URL + '/#/Gallery'} className="nav-font" id="info">GALLERY</a>
-      <a href={process.env.PUBLIC_URL + '/#/Registration'} className="nav-font" id="about" >REGISTRATION</a>
+      <a href={process.env.PUBLIC_URL + '/#/Register'} className="nav-font" id="about" >REGISTRATION</a>
 
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
