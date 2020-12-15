@@ -12,7 +12,6 @@ class Home extends Component {
      
             <div className="body">
 
-<h1 className="title1" style={{marginBottom:"30px"}}><b>WELCOME</b></h1>
 
     <div>
       <img className='homepic' src={back} alt="logo" width="100%" />
@@ -20,8 +19,8 @@ class Home extends Component {
     </div>
 
 
-            <div style={{marginTop:"30px"}}>
-            <h2 className="title"><b>Our Philosophy</b></h2>
+            <div className="cushion" style={{marginTop:"30px"}}>
+            <h2 className="title"><b>OUR PHILOSOPHY</b></h2>
             <p className="content">Our philosophy is based on the notion that children need 
               due care for them to thrive and develop; Caring Relationships, 
               self-controlled and self-directed play time and exploring the 
@@ -30,8 +29,8 @@ class Home extends Component {
               helping them achieve all their future endeavors.</p>
             </div>
 
-            <div >
-            <h2 className="title"><b>Mission Statement</b></h2>
+            <div className="cushion">
+            <h2 className="title"><b>MISSION STATEMENT</b></h2>
             <p className="content">To provide service through the concept of quality
             day care in order to meet the requirements of the present day,
             and to raise a next generation to face the future successfully.</p>
