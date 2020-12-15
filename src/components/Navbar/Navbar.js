@@ -22,8 +22,8 @@ class Navbar extends Component {
 </ReactBootStrap.Nav>
     <ReactBootStrap.Nav className='nav-size' >
 
-      <a href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home" style={{marginRight:'100px'}}>HOME</a>
-      <a href={process.env.PUBLIC_URL + '/#/Program'} className="nav-font" id="faq" style={{marginLeft:'-80px'}}>PROGRAM</a>
+      <a href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home" >HOME</a>
+      <a href={process.env.PUBLIC_URL + '/#/Program'} className="nav-font" id="faq" >PROGRAM</a>
       <a href={process.env.PUBLIC_URL + '/#/Gallery'} className="nav-font" id="info">GALLERY</a>
       <a href={process.env.PUBLIC_URL + '/#/Register'} className="nav-font" id="about" >REGISTRATION</a>
 
