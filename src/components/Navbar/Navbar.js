@@ -9,7 +9,7 @@ class Navbar extends Component {
     render() {
 
         return (
-        <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="color-nav" variant="light" style={{boxShadow: "none"}}>
+        <ReactBootStrap.Navbar collapseOnSelect expand="lg" className="color-nav" variant="light" style={{boxShadow: "none",backgroundColor:"#e2fab6"}}>
           <div id="logo-href">
 <a href={process.env.PUBLIC_URL + '/#/'} ><img src={main_logo2} id="logo-nav" alt="main-logo" /></a></div>
             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" className="navDropDown"/>
@@ -22,8 +22,8 @@ class Navbar extends Component {
 </ReactBootStrap.Nav>
     <ReactBootStrap.Nav className='nav-size' >
 
-      <a href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home">HOME</a>
-      <a href={process.env.PUBLIC_URL + '/#/Program'} className="nav-font" id="faq" >PROGRAM</a>
+      <a href={process.env.PUBLIC_URL + '/#/'} className="nav-font" id="home" style={{marginRight:'100px'}}>HOME</a>
+      <a href={process.env.PUBLIC_URL + '/#/Program'} className="nav-font" id="faq" style={{marginLeft:'-80px'}}>PROGRAM</a>
       <a href={process.env.PUBLIC_URL + '/#/Gallery'} className="nav-font" id="info">GALLERY</a>
       <a href={process.env.PUBLIC_URL + '/#/Register'} className="nav-font" id="about" >REGISTRATION</a>
 

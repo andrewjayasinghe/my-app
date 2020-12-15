@@ -41,6 +41,7 @@ class Gallery extends Component {
         return (
 
             <>
+            <div style={{backgroundColor:"#e2fab6"}}>
             <div className="cards3" >
              <h2 className="title" style={{marginBottom:'10px'}}><b>A Fun Learning Experience!</b></h2>
 
@@ -272,7 +273,7 @@ class Gallery extends Component {
 
 </Carousel>
 </div>
-
+</div>
 </>
 
 

@@ -7,7 +7,7 @@ class Footer extends Component {
     render() {
         return (
             
-            <footer class="page-footer font-small unique-color-dark pt-4 bottom">
+            <footer class="page-footer font-small unique-color-dark pt-4 bottom" style={{backgroundColor:"#e2fab6"}}>
 < link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"></link>
   <div class="container">
 

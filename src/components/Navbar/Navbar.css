@@ -24,8 +24,9 @@
     line-height: 35px;
     margin-top: 7px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-right: 15px;
+    margin-right: 10px;
     opacity:0.85;
+    letter-spacing: 2px;
 }
 
 .navbar{
@@ -36,15 +37,16 @@
 }
 
 .nav-font:hover {
-    color:#c4026d;
+    color:rgb(255, 72, 112);
     opacity:1;
+    text-decoration: none;
 }
 #logo-nav {
     width: 450px;
 }
 @media only screen and (orientation:portrait){
     .nav-font {
-        color: #D60B52;
+        color: #c20346;
         font-size: 20px;
         line-height: 35px;
         margin-top: 7px;
