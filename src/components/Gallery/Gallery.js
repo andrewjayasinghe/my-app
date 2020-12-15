@@ -17,6 +17,14 @@ import twelvePicture from "./../../assets/im14.jpeg"
 import thirteenPicture from "./../../assets/im15.jpeg"
 import fourteenPicture from "./../../assets/im16.jpeg"
 import onePicture from "./../../assets/i1.jpeg"
+import twoPicture from "./../../assets/i2.jpeg"
+import threePicture from "./../../assets/i3.jpeg"
+import fourPicture from "./../../assets/i4.jpeg"
+import fivePicture from "./../../assets/i5.jpeg"
+import sixPicture from "./../../assets/i6.jpg"
+import sevenPicture from "./../../assets/i7.jpg"
+
+
 
 
 
@@ -208,6 +216,55 @@ class Gallery extends Component {
  <img
    className="carouselImage d-block w-100"
    src={onePicture}
+   alt="First slide"
+ />
+  </div>
+</Carousel.Item>
+<Carousel.Item interval={2000}>
+<div className="carouseImageContainer" >
+ <img
+   className="carouselImage d-block w-100"
+   src={twoPicture}
+   alt="First slide"
+ />
+  </div>
+</Carousel.Item><Carousel.Item interval={2000}>
+<div className="carouseImageContainer" >
+ <img
+   className="carouselImage d-block w-100"
+   src={threePicture}
+   alt="First slide"
+ />
+  </div>
+</Carousel.Item><Carousel.Item interval={2000}>
+<div className="carouseImageContainer" >
+ <img
+   className="carouselImage d-block w-100"
+   src={fourPicture}
+   alt="First slide"
+ />
+  </div>
+</Carousel.Item><Carousel.Item interval={2000}>
+<div className="carouseImageContainer" >
+ <img
+   className="carouselImage d-block w-100"
+   src={fivePicture}
+   alt="First slide"
+ />
+  </div>
+</Carousel.Item><Carousel.Item interval={2000}>
+<div className="carouseImageContainer" >
+ <img
+   className="carouselImage d-block w-100"
+   src={sixPicture}
+   alt="First slide"
+ />
+  </div>
+</Carousel.Item><Carousel.Item interval={2000}>
+<div className="carouseImageContainer" >
+ <img
+   className="carouselImage d-block w-100"
+   src={sevenPicture}
    alt="First slide"
  />
   </div>

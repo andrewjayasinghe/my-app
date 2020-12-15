@@ -29,7 +29,7 @@ class Home extends Component {
               helping them achieve all their future endeavors.</p>
             </div>
 
-            <div className="cushion">
+            <div className="cushion"  style={{marginTop:"50px"}}>
             <h2 className="title"><b>MISSION STATEMENT</b></h2>
             <p className="content">To provide service through the concept of quality
             day care in order to meet the requirements of the present day,

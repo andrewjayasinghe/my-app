@@ -1,0 +1,99 @@
+.margins{
+    margin-bottom: 10%;
+  }
+
+.font2{
+font-family: Tahoma;
+letter-spacing: 0.1em;
+font-size: 25px;
+font-weight: bolder;
+}
+
+.email{
+    color: #D60b52;
+  }
+
+
+@media only screen and (max-width: 699px) {
+    a.regLink {
+      background-color: red;
+      box-shadow: 0 5px 0 darkred;
+      color: white;
+      padding: 1em 1.5em;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 8px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+    
+    a.regLink:hover {
+      background-color: #ce0606;
+      cursor: pointer;
+      color:white;
+      text-decoration: none;
+    }
+    
+    a.regLink:active {
+      box-shadow: none;
+      top: 5px;
+    }
+    .font2{
+        font-family: Tahoma;
+        letter-spacing: 0.1em;
+        font-size: 15px;
+      }
+      .picture{
+        width: 210px;
+        height: 190px;
+    }
+
+    .picture1{
+      width: 220px;
+      height: 150px;
+  }
+  .email{
+    color: #D60b52;
+    font-size: 12px;
+    margin-left: -15px;
+  }
+  
+}
+
+@media only screen and (min-width: 700px) {
+    a.regLink {
+      background-color: red;
+      box-shadow: 0 5px 0 darkred;
+      color: white;
+      padding: 1em 1.5em;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 15px;
+      border-radius: 15px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    a.regLink:hover {
+      background-color: #ce0606;
+      cursor: pointer;
+      color:white;
+      text-decoration: none;
+    }
+    
+    a.regLink:active {
+      box-shadow: none;
+      top: 5px;
+    }
+    
+    
+    .font2{
+      font-family: Tahoma;
+      letter-spacing: 0.1em;
+      font-size: 25px;
+      font-weight: bolder;
+    
+    }
+}    
