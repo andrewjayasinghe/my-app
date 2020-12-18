@@ -13,7 +13,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-}
+} 
 .nav-font {
     color: #D60B52;
     /* font-size: 20px; */
@@ -37,9 +37,11 @@
 }
 
 .nav-font:hover {
-    color:rgb(255, 72, 112);
+    color:rgb(255, 149, 172);
     opacity:1;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
 }
 #logo-nav {
     width: 450px;
